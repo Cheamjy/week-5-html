@@ -48,23 +48,6 @@ li {
 
 /* section one flex grow and shrink */
 
-.box1 {
-    background-color: skyblue;
-    height: 200px;
-    flex: 1 1 auto;
-}
-
-.box2 {
-    background-color: lightgreen;
-    height: 200px;
-    flex: 1 1 auto;
-}
-
-.box2 {
-    background-color: darkmagenta;
-    height: 200px;
-    flex: 1 1 auto;
-}
 
 .section-one {
     background-color: blueviolet;
@@ -98,7 +81,7 @@ li {
     
     height: 200px;
     flex: 1 1 auto;
-
+0
 }
 
 /* section 2 center item */
@@ -106,6 +89,10 @@ li {
 .section-two {
     background-color: orangered;
     height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
 
 }
 
@@ -113,7 +100,12 @@ li {
 
 .section-three {
     background-color: lightcoral;
-    height: 800px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
 
 }
 
