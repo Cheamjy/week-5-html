@@ -134,9 +134,14 @@ iframe {
 .section-five {
     background-color: goldenrod;
     height: 1400px;
-    flex-wrap: wrap;
-    padding: 15px 25px 25px 15px;
+}
 
+
+.media-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
 }
 
 .media-container .media-container {
@@ -144,10 +149,12 @@ iframe {
     padding: 10px;
 }
 
-.media-container{
+.mediacontent {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: navy;
     font-size: 20px;
-}
+}   
+
+
 
 
