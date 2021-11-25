@@ -120,6 +120,12 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
     
 }
 
@@ -128,7 +134,20 @@ iframe {
 .section-five {
     background-color: goldenrod;
     height: 1400px;
+    flex-wrap: wrap;
+    padding: 15px 25px 25px 15px;
 
+}
+
+.media-container .media-container {
+    flex: 1;
+    padding: 10px;
+}
+
+.media-container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    font-size: 20px;
 }
 
 
